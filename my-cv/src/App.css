@@ -1,0 +1,65 @@
+.contactInfo p {
+  line-height: 30px;
+}
+.sameHeight {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.wrap-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.avatarImg img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 200px;
+}
+.social i {
+  padding: 2px;
+  color: rgb(68,68,68);
+}
+.mt {
+  margin-top: 20px;
+}
+.pt {
+  padding-top: 10px;
+}
+h5 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+h6 span {
+  float: right;
+  font-size: 14px;
+}
+@media only screen and (max-width: 992px) {
+  .social i {
+    padding: 2px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  h2 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  h6 {
+    padding-bottom: 15px;
+    line-height: 140%;
+  }
+  h6 strong {
+    display: block;
+  }
+  h6 span {
+    float: left;
+    font-size: 90%;
+  }
+}
