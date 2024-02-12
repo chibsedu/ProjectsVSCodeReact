@@ -1,4 +1,0 @@
-react-guide
-===========
-
-React adventures  
